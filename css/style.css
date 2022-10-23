@@ -161,11 +161,12 @@ form .form-control {
   width: 40%;
 }
 
-.product-1-text {
+.product-1-text, {
   float: left;
   width: 60%;
-  text-align: left;
-  padding: 80px 70px;
+  text-align: center;
+  padding: 80px 70p
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .product-2-img {
@@ -179,6 +180,7 @@ form .form-control {
   width: 60%;
   text-align: right;
   padding: 80px 70px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* About */
