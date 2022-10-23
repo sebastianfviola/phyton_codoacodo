@@ -146,6 +146,12 @@ form .form-control {
   height: 470px;
   margin-top: 50px;
 }
+ .photo {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    
+  }
 
 .product-box img {
   width: 100%;
