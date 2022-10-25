@@ -1,4 +1,6 @@
 //archivo javascript
+//probando cambios desde VSC
+
 
 function valida_envia(){
     //valido el nombre
