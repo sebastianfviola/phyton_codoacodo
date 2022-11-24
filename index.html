@@ -23,6 +23,7 @@
           <li><a href="#Delivery">Delivery</a></li>
           <li><a href="#Take">TakeAway</a></li>
           <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#cocina">Nuestra Cocina</a></li>
         </ul>
       </div>
     </nav>
@@ -112,21 +113,21 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fuga quod omnis, enim nostrum illum. Ut iure minima esse eveniet necessitatibus, quas ipsam aut voluptatum veritatis ad eligendi impedit temporibus non quo velit unde recusandae. Totam officiis dolor inventore officia nobis rem enim voluptatem? Dignissimos obcaecati blanditiis voluptas facilis nemo quasi fugit amet eos ullam, maiores exercitationem! Magni sapiente officia rem maiores quisquam dolores ipsam, temporibus architecto numquam soluta. Iure!</p>
       </div>
       <div class="contact-form">
-        <form name="fvalida">
+        <form name="fvalida"  onsubmit="return valida_envia()" action="#contacto">
           <div class="form-group">
             <label for="name">Nombre</label>
             <input class="form-control" type="text" name="nombre">
           </div>
           <div class="form-group">
             <label for="name">Email</label>
-            <input class="form-control" type="email">
+            <input class="form-control" type="email" name="email">
           </div>
           <div class="form-group">
             <label for="name">Mensaje</label>
-            <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
+            <textarea class="form-control" name="message"  cols="30" rows="7"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-dark" onclick="valida_envia()">Enviar </button>
+          <button type="submit" class="btn btn-dark">Enviar </button>
         </form>
     </div>
   </section>
