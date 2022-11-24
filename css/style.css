@@ -146,12 +146,6 @@ form .form-control {
   height: 470px;
   margin-top: 50px;
 }
- .photo {
-    height: 200px;
-    width: 300px;
-    display: flex;
-    
-  }
 
 .product-box img {
   width: 100%;
@@ -161,12 +155,11 @@ form .form-control {
   width: 40%;
 }
 
-.product-1-text, {
+.product-1-text {
   float: left;
   width: 60%;
-  text-align: center;
-  padding: 80px 70p
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  text-align: left;
+  padding: 80px 70px;
 }
 
 .product-2-img {
@@ -180,7 +173,6 @@ form .form-control {
   width: 60%;
   text-align: right;
   padding: 80px 70px;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* About */
@@ -232,4 +224,17 @@ form .form-control {
 #mainfooter {
   text-align: center;
   padding: 40px;
+}
+
+
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
